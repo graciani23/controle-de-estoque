@@ -1,5 +1,6 @@
 ## Back-end | {reprograma} | Mercado Livre | Dezembro/19
 
+
 ## Rota/EndPoinst
 POST/produtos HTTP 201 - CREATED, <br/>
 GET/produtos HTTP 200 - OK,<br/>
@@ -17,7 +18,7 @@ PUT/:id HTTP 200 - OK'<br/>
 * Heroku
 
 Administradora por formação, apaixonada por tecnologia e pelo Nino, meu shitzu!<br/>
-Estudante e Back-end e Desenvolvimento Web Full Stack - Digital House.<br/><br/>
+Estudante de Back-end e Desenvolvimento Web Full Stack - Digital House.<br/><br/>
 
 
 <p align="center"> 
