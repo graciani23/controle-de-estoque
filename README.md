@@ -2,13 +2,12 @@
 
 
 ## Rota/EndPoinst
-POST/produtos HTTP 201 - CREATED, <br/>
-GET/produtos HTTP 200 - OK,<br/>
-GET/produtos/vencendoEmSeteDias HTTP 200 - OK,<br/>
-GET/dias/:_id HTTP 200 - OK,<br/>
-GET/produtos/:id - HTTP 200 - OK,<br/>
-DELETE/:id HTTP 204 - NO CONTENT,<br/>
-PUT/:id HTTP 200 - OK'<br/>
+POST/produtos Rota que cadastra um novo produto - HTTP 201 - CREATED, <br/>
+GET/produtos Rota que retorna todos os produtos cadastrados - HTTP 200 - OK,<br/>
+GET/produtos/vencendoEmSeteDias Rota que retorna os produtos vencendo nos próximos sete dias - HTTP 200 - OK,<br/>
+GET/dias/:_id Rota que retorna os dias para o vencimento de um produto baseado em seu id - HTTP 200 - OK,<br/>
+DELETE/:id Rota que deleta um produto baseado em seu id -HTTP 204 - NO CONTENT,<br/>
+PUT/:id Rota que atualiza o cadastro do item baseado em seu id - HTTP 200 - OK'<br/>
 
 ## Linguagens
 * NodeJS
