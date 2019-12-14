@@ -1,5 +1,7 @@
 ## Back-end | {reprograma} | Mercado Livre | Dezembro/19
 
+## Objetivo
+A API tem como objetivo ajudar no controle de validade de produtos visando reduzir desperdícios.
 
 ## Rota/EndPoinst
 POST/produtos Rota que cadastra um novo produto - HTTP 201 - CREATED, <br/>
@@ -10,7 +12,7 @@ DELETE/:id Rota que deleta um produto baseado em seu id -HTTP 204 - NO CONTENT,<
 PUT/:id Rota que atualiza o cadastro do item baseado em seu id - HTTP 200 - OK'.<br/>
 <br/>
 POST/usuarios Rota que cadastra um novo usuário - HTTP 201 - CREATED, <br/>
-POST/usuarios/auth Rota que gera um token de autenticação para o usuário,
+POST/usuarios/auth Rota que gera um token de autenticação para o usuário,<br/>
 GET/usuarios Rota que retorna todos os usuários cadastrados - HTTP 200 - OK.<br/>
 
 ## Linguagens
