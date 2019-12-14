@@ -22,8 +22,9 @@ GET/usuarios Rota que retorna todos os usuários cadastrados - HTTP 200 - OK.<br
 * Postman
 * Heroku
 
-Administradora por formação, apaixonada por tecnologia e pelo Nino, meu shitzu!<br/>
-Estudante de Back-end e Desenvolvimento Web Full Stack - Digital House.<br/><br/>
+Graciani Sousa, administradora por formação, apaixonada por tecnologia e pelo Nino, meu shitzu!<br/>
+Sou estudante de Back-end na {reprograma} e Desenvolvimento Web Full Stack - Digital House.<br/>
+Meu objetivo na área de tecnologia é resolver problemas e desenvolver soluções que facilitem o dia a dia das pessoas!<br/><br/>
 
 
 <p align="center"> 
