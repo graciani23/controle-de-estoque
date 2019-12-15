@@ -1,4 +1,4 @@
-## Back-end | {reprograma} | Mercado Livre | Dezembro/19
+## Back-end | {reprograma} + Mercado Livre | Dezembro/19
 
 ## Objetivo
 A API tem como objetivo ajudar no controle de validade de produtos visando reduzir desperdícios.
