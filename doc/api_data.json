@@ -1,8 +1,8 @@
 [
   {
-    "type": "delete",
+    "type": "DELETE",
     "url": "/estoque/:id",
-    "title": "deleta o item filtrado por seu id",
+    "title": "Deleta o item filtrado por seu id",
     "name": "delete",
     "group": "estoque",
     "parameter": {
@@ -41,9 +41,9 @@
     "groupTitle": "estoque"
   },
   {
-    "type": "get",
+    "type": "GET",
     "url": "/estoque",
-    "title": "retorna os produtos cadastrados",
+    "title": "Retorna os produtos cadastrados",
     "name": "get",
     "group": "estoque",
     "success": {
@@ -101,9 +101,9 @@
     "groupTitle": "estoque"
   },
   {
-    "type": "get",
+    "type": "GET",
     "url": "/estoque/dias/:id",
-    "title": "retorna os dias para o vencimento de um item filtrado pelo id",
+    "title": "Retorna os dias para o vencimento de um item filtrado pelo id",
     "name": "getDias",
     "group": "estoque",
     "parameter": {
@@ -153,9 +153,9 @@
     "groupTitle": "estoque"
   },
   {
-    "type": "get",
+    "type": "GET",
     "url": "/estoque/VencendoProximosSeteDias",
-    "title": "retorna um array com os produtos que irão vencer nos próximos 7 dias",
+    "title": "Retorna um array com os produtos que irão vencer nos próximos 7 dias",
     "name": "getVencendo",
     "group": "estoque",
     "success": {
@@ -192,9 +192,9 @@
     "groupTitle": "estoque"
   },
   {
-    "type": "post",
+    "type": "POST",
     "url": "/estoque",
-    "title": "cria um novo produto",
+    "title": "Cria um novo produto",
     "name": "post",
     "group": "estoque",
     "success": {
@@ -252,9 +252,9 @@
     "groupTitle": "estoque"
   },
   {
-    "type": "put",
+    "type": "PUT",
     "url": "/estoque/:id",
-    "title": "atualiza um item filtrado por seu id utilizando os dados passados no corpo da requisição",
+    "title": "Atualiza um item filtrado por seu id utilizando os dados passados no corpo da requisição",
     "name": "put",
     "group": "estoque",
     "parameter": {
@@ -294,8 +294,27 @@
   },
   {
     "type": "get",
+    "url": "/produtos",
+    "title": "Retorna uma página HTML com os produtos cadastrados",
+    "name": "get",
+    "group": "produtos",
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n   http://localhost:8080/produtos\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "src/index.js",
+    "groupTitle": "produtos"
+  },
+  {
+    "type": "GET",
     "url": "/usuarios",
-    "title": "retorna os usuários cadastrados",
+    "title": "Retorna os usuários cadastrados",
     "name": "get",
     "group": "usuarios",
     "success": {
@@ -346,9 +365,9 @@
     "groupTitle": "usuarios"
   },
   {
-    "type": "post",
+    "type": "POST",
     "url": "/usuarios",
-    "title": "cria um novo usuário",
+    "title": "Cria um novo usuário",
     "name": "post",
     "group": "usuarios",
     "success": {
@@ -406,9 +425,9 @@
     "groupTitle": "usuarios"
   },
   {
-    "type": "post",
+    "type": "POST",
     "url": "/usuarios/auth",
-    "title": "cria um token de autenticação do usuário",
+    "title": "Gera um token de autenticação do usuário",
     "name": "postAuth",
     "group": "usuarios",
     "success": {

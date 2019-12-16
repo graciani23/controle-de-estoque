@@ -5,7 +5,7 @@ const authMiddleware = require('../middleware/auth')
 
 
 /**
- * @api {post} /estoque cria um novo produto
+ * @api {POST} /estoque Cria um novo produto
  * @apiName post
  * @apiGroup estoque
  *
@@ -34,7 +34,7 @@ const authMiddleware = require('../middleware/auth')
 router.post('/', controller.post)
 
 /**
- * @api {get} /estoque retorna os produtos cadastrados
+ * @api {GET} /estoque Retorna os produtos cadastrados
  * @apiName get
  * @apiGroup estoque
  *
@@ -62,7 +62,7 @@ router.post('/', controller.post)
 router.get('/', controller.get)
 
 /**
- * @api {get} /estoque/VencendoProximosSeteDias retorna um array com os produtos que irão vencer nos próximos 7 dias
+ * @api {GET} /estoque/VencendoProximosSeteDias Retorna um array com os produtos que irão vencer nos próximos 7 dias
  * @apiName getVencendo
  * @apiGroup estoque
  *
@@ -85,7 +85,7 @@ router.get('/', controller.get)
 router.get('/VencendoProximosSeteDias', controller.getVencendo)
 
 /**
- * @api {get} /estoque/dias/:id retorna os dias para o vencimento de um item filtrado pelo id
+ * @api {GET} /estoque/dias/:id Retorna os dias para o vencimento de um item filtrado pelo id
  * @apiName getDias
  * @apiGroup estoque
  *
@@ -115,7 +115,7 @@ router.get('/dias/:_id', controller.getDias)
 router.use(authMiddleware)
 
 /**
- * @api {put} /estoque/:id atualiza um item filtrado por seu id utilizando os dados passados no corpo da requisição
+ * @api {PUT} /estoque/:id Atualiza um item filtrado por seu id utilizando os dados passados no corpo da requisição
  * @apiName put
  * @apiGroup estoque
  *
@@ -138,7 +138,7 @@ router.use(authMiddleware)
 router.put('/:_id', controller.put)
 
 /**
- * @api {delete} /estoque/:id deleta o item filtrado por seu id
+ * @api {DELETE} /estoque/:id Deleta o item filtrado por seu id
  * @apiName delete
  * @apiGroup estoque
  *

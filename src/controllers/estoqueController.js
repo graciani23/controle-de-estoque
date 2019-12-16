@@ -14,7 +14,7 @@ exports.post = (req, res) => {
 exports.get = (req, res) => {
     Estoque.find()
         .then((produtos) => {
-            return res.status(200).send(produtos)
+            return res.status(200).send(produtos);
         })
         .catch((err) => {
             return res.status(400).send({ message: err });

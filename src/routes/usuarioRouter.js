@@ -4,7 +4,7 @@ const controller = require('../controllers/usuarioController')
 
 
 /**
- * @api {post} /usuarios cria um novo usuário
+ * @api {POST} /usuarios Cria um novo usuário
  * @apiName post
  * @apiGroup usuarios
  *
@@ -33,7 +33,7 @@ const controller = require('../controllers/usuarioController')
 router.post('/', controller.post)
 
 /**
- * @api {post} /usuarios/auth cria um token de autenticação do usuário
+ * @api {POST} /usuarios/auth Gera um token de autenticação do usuário
  * @apiName postAuth
  * @apiGroup usuarios
  *
@@ -66,7 +66,7 @@ router.post('/', controller.post)
 router.post('/auth', controller.postAuth)
 
 /**
- * @api {get} /usuarios retorna os usuários cadastrados
+ * @api {GET} /usuarios Retorna os usuários cadastrados
  * @apiName get
  * @apiGroup usuarios
  *

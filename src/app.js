@@ -17,6 +17,7 @@ mongoose.connect('mongodb://localhost:27017/projetoEstoque', {
 // rotas
 const estoque = require('./routes/estoqueRoute');
 const usuarios = require('./routes/usuarioRouter');
+const produtos = require('./index')
 
 app.use(bodyParser.json());
 
@@ -35,6 +36,9 @@ app.get('/api-doc', (req, res) => {
 })
 
 app.use('/estoque', estoque);
-app.use('/usuarios', usuarios)
+app.use('/usuarios', usuarios);
+app.use('/produtos', produtos);
+app.set('view engine', 'ejs');
+app.set('views', './src/views');
 
 module.exports = app;
