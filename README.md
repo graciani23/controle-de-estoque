@@ -8,8 +8,8 @@ POST/estoque - Rota que cadastra um novo produto - HTTP 201 - CREATED, <br/>
 GET/estoque - Rota que retorna todos os produtos cadastrados - HTTP 200 - OK,<br/>
 GET/estoque/vencendoEmSeteDias - Rota que retorna os produtos vencendo nos próximos sete dias - HTTP 200 - OK,<br/>
 GET/estoque/dias/:_id - Rota que retorna os dias para o vencimento de um produto baseado em seu id - HTTP 200 - OK,<br/>
-DELETE/estoque/:id - Rota que deleta um produto baseado em seu id -HTTP 204 - NO CONTENT,<br/>
-PUT/estoque/:id - Rota que atualiza o cadastro do item baseado em seu id - HTTP 200 - OK'.<br/>
+DELETE/estoque/:_id - Rota que deleta um produto baseado em seu id -HTTP 204 - NO CONTENT,<br/>
+PUT/estoque/:_id - Rota que atualiza o cadastro do item baseado em seu id - HTTP 200 - OK'.<br/>
 <br/>
 POST/usuarios - Rota que cadastra um novo usuário - HTTP 201 - CREATED, <br/>
 POST/usuarios/auth - Rota que gera um token de autenticação para o usuário,<br/>
