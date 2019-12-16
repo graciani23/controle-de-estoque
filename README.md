@@ -1,7 +1,7 @@
 ## Back-end | {reprograma} + Mercado Livre | Dezembro/19
 
 ### Objetivo
-A API tem como objetivo ajudar no controle de validade de produtos visando reduzir desperdícios.
+A API tem como objetivo ajudar no controle de validade de produtos visando reduzir desperdícios de alimentos.
 
 ### Rota/EndPoinst
 POST/estoque Rota que cadastra um novo produto - HTTP 201 - CREATED, <br/>
