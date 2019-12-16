@@ -5,7 +5,7 @@ A API tem como objetivo ajudar no controle de validade de produtos visando reduz
 
 ### Rota/EndPoinst
 POST/estoque - Rota que cadastra um novo produto - HTTP 201 - CREATED, <br/>
-GET/estoque -- Rota que retorna todos os produtos cadastrados - HTTP 200 - OK,<br/>
+GET/estoque - Rota que retorna todos os produtos cadastrados - HTTP 200 - OK,<br/>
 GET/estoque/vencendoEmSeteDias - Rota que retorna os produtos vencendo nos próximos sete dias - HTTP 200 - OK,<br/>
 GET/estoque/dias/:_id - Rota que retorna os dias para o vencimento de um produto baseado em seu id - HTTP 200 - OK,<br/>
 DELETE/estoque/:id - Rota que deleta um produto baseado em seu id -HTTP 204 - NO CONTENT,<br/>
